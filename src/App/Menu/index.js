@@ -1,4 +1,5 @@
 import React from "react";
+import { Modal, ModalBody } from 'reactstrap';
 
 import { MainWrapper, GrowWrapper } from "../styled";
 import menuImage1 from "../../images/menuImage1.jpg";
@@ -23,7 +24,7 @@ import {
   OpenMealButton,
   StyledImageAnotherMealWrapper
 } from "./styled";
-import { Slider } from './Carousel';
+import { Slider } from './Slider';
 
 const firtsRowImages = [menuImage1, menuImage2, menuImage3, menuImage4];
 const anotherMealImages = [menuImage5, menuImage6, menuImage7, menuImage8, menuImage9, menuImage10];
@@ -34,40 +35,51 @@ export const Menu = () => {
   const handleOpenCarousel = (index) => () => setCarouselIndex(index);
 
   return (
-    <MainWrapper>
-      {carouselIndex >= 0 && <Slider carouselIndex={carouselIndex} />}
-      <MenuWrapper>
-        <FirstRowWrapper>
-          {firtsRowImages.map((image, i) => (
-            <StyledImageFirstRowWrapper key={i}>
-              <GrowWrapper>
-                <StyledImage src={image} alt={`firstRowImage${i}`}/>
-              </GrowWrapper>
-              <MealName>
-                Описание
-              </MealName>
-              <OpenMealButton onClick={handleOpenCarousel(i)}>
-                Смотреть
-              </OpenMealButton>
-            </StyledImageFirstRowWrapper>
-          ))}
-        </FirstRowWrapper>
-        <AnotherMealWrapper>
-          {anotherMealImages.map((image, i) => (
-            <StyledImageAnotherMealWrapper>
-              <GrowWrapper>
-                <StyledImageAnotherMeal src={image} alt={`anotherMealImage${i}`} />
-              </GrowWrapper>
-              <MealName>
-                Описание
-              </MealName>
-              <OpenMealButton onClick={handleOpenCarousel((i + 4))}>
-                Смотреть
-              </OpenMealButton>
-            </StyledImageAnotherMealWrapper>
-          ))}
-        </AnotherMealWrapper>
-      </MenuWrapper>
-    </MainWrapper>
+    <>
+      <Modal
+        isOpen={carouselIndex >= 0}
+        toggle={handleOpenCarousel(-1)}
+        size="lg"
+        centered={true}
+      >
+        <ModalBody>
+          <Slider carouselIndex={carouselIndex} />
+        </ModalBody>
+      </Modal>
+      <MainWrapper>
+        <MenuWrapper>
+          <FirstRowWrapper>
+            {firtsRowImages.map((image, i) => (
+              <StyledImageFirstRowWrapper key={i}>
+                <GrowWrapper>
+                  <StyledImage src={image} alt={`firstRowImage${i}`}/>
+                </GrowWrapper>
+                <MealName>
+                  Описание
+                </MealName>
+                <OpenMealButton onClick={handleOpenCarousel(i)}>
+                  Смотреть
+                </OpenMealButton>
+              </StyledImageFirstRowWrapper>
+            ))}
+          </FirstRowWrapper>
+          <AnotherMealWrapper>
+            {anotherMealImages.map((image, i) => (
+              <StyledImageAnotherMealWrapper key={i}>
+                <GrowWrapper>
+                  <StyledImageAnotherMeal src={image} alt={`anotherMealImage${i}`} />
+                </GrowWrapper>
+                <MealName>
+                  Описание
+                </MealName>
+                <OpenMealButton onClick={handleOpenCarousel((i + firtsRowImages.length))}>
+                  Смотреть
+                </OpenMealButton>
+              </StyledImageAnotherMealWrapper>
+            ))}
+          </AnotherMealWrapper>
+        </MenuWrapper>
+      </MainWrapper>
+    </>
   )
 };

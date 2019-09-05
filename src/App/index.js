@@ -5,6 +5,8 @@ import { createGlobalStyle } from "styled-components";
 import { HomePage } from './HomePage';
 import { Header } from './Header';
 import { Menu } from './Menu';
+import { MainChef } from './MainChef';
+import { Contacts } from './Contacts';
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -21,10 +23,12 @@ const GlobalStyles = createGlobalStyle`
 `
 
 export const App = () => (
-    <BrowserRouter>
-      <GlobalStyles />
-      <Header />
-      <Route path="/restaurant-design/" exact component={HomePage} />
-      <Route path="/restaurant-design/menu" component={Menu} />
-    </BrowserRouter>
+  <BrowserRouter>
+    <GlobalStyles />
+    <Header />
+    <Route path="/restaurant-design/" exact component={HomePage} />
+    <Route path="/restaurant-design/contacts" component={Contacts} />
+    <Route path="/restaurant-design/menu" exact component={Menu} />
+    <Route path="/restaurant-design/main-chef" exact component={MainChef} />
+  </BrowserRouter>
 );

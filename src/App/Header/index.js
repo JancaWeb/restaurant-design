@@ -10,8 +10,8 @@ const HeaderComponent = ({location: { pathname }}) => (
   <HeaderWrapper>
     <HeaderItem to="/restaurant-design/" isActive={pathname === '/restaurant-design/'}>Главная</HeaderItem>
     <HeaderItem to="/restaurant-design/menu">Меню</HeaderItem>
-    <HeaderItem to="/restaurant-design/">Шеф-повор</HeaderItem>
-    <HeaderItem to="/restaurant-design/">Контактная информация</HeaderItem>
+    <HeaderItem to="/restaurant-design/main-chef">Шеф-повор</HeaderItem>
+    <HeaderItem to="/restaurant-design/contacts">Контактная информация</HeaderItem>
   </HeaderWrapper>
 );
 

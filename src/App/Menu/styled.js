@@ -7,6 +7,8 @@ export const MenuWrapper = styled.div`
   background-color: #d4d2cf;
   width: 80%;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
 `;
 
 export const FirstRowWrapper = styled.div`
@@ -22,11 +24,15 @@ export const AnotherMealWrapper = styled.div`
 `;
 
 export const StyledImage = styled.img`
-  height: 10rem;
-  margin: 2rem;
+  width: 100%;
+  max-height: 12rem;
+  @media(min-width: 1280px) {
+    height: 12rem;
+  }
 `;
 
 export const StyledImageFirstRowWrapper = styled.div`
+  height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,6 +65,9 @@ export const StyledImageAnotherMealWrapper = styled.div`
 `;
 
 export const StyledImageAnotherMeal = styled.img`
-  height: 12rem;
-  margin: 3rem;
+  width: 100%;
+  max-height: 15rem;
+  @media(min-width: 1280px) {
+    height: 15rem;
+  }
 `;
