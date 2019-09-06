@@ -19,5 +19,6 @@ export const HeaderItem = styled(({ isActive, ...rest }) => <NavLink {...rest} /
   letter-spacing: 0.1em;
   &:hover {
     color: #fff;
+    text-decoration: none;
   }
 `;
