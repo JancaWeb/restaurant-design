@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/restaurant-design/static/css/main.34de6062.chunk.css",
+    "main.js": "/restaurant-design/static/js/main.5f33faca.chunk.js",
+    "main.js.map": "/restaurant-design/static/js/main.5f33faca.chunk.js.map",
+    "runtime~main.js": "/restaurant-design/static/js/runtime~main.c55b6add.js",
+    "runtime~main.js.map": "/restaurant-design/static/js/runtime~main.c55b6add.js.map",
+    "static/css/2.266e55a5.chunk.css": "/restaurant-design/static/css/2.266e55a5.chunk.css",
+    "static/js/2.6498d9a7.chunk.js": "/restaurant-design/static/js/2.6498d9a7.chunk.js",
+    "static/js/2.6498d9a7.chunk.js.map": "/restaurant-design/static/js/2.6498d9a7.chunk.js.map",
+    "index.html": "/restaurant-design/index.html",
+    "precache-manifest.b7ffecd80ed2eed121c266bb177c68ab.js": "/restaurant-design/precache-manifest.b7ffecd80ed2eed121c266bb177c68ab.js",
+    "service-worker.js": "/restaurant-design/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/restaurant-design/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/restaurant-design/static/css/main.34de6062.chunk.css.map",
+    "static/media/chef.png": "/restaurant-design/static/media/chef.6cc8d199.png",
+    "static/media/mainChef.png": "/restaurant-design/static/media/mainChef.0a851e40.png",
+    "static/media/mainImage.jpg": "/restaurant-design/static/media/mainImage.4244e693.jpg",
+    "static/media/mainImageMeal.jpg": "/restaurant-design/static/media/mainImageMeal.af1fd663.jpg",
+    "static/media/menuImage1.jpg": "/restaurant-design/static/media/menuImage1.98cb64eb.jpg",
+    "static/media/menuImage10.jpeg": "/restaurant-design/static/media/menuImage10.63b79c40.jpeg",
+    "static/media/menuImage2.jpg": "/restaurant-design/static/media/menuImage2.f57b784c.jpg",
+    "static/media/menuImage3.jpg": "/restaurant-design/static/media/menuImage3.857226e8.jpg",
+    "static/media/menuImage4.jpg": "/restaurant-design/static/media/menuImage4.7adf8e5e.jpg",
+    "static/media/menuImage5.jpg": "/restaurant-design/static/media/menuImage5.260102ae.jpg",
+    "static/media/menuImage6.jpg": "/restaurant-design/static/media/menuImage6.1849ab48.jpg",
+    "static/media/menuImage7.jpg": "/restaurant-design/static/media/menuImage7.4e76db57.jpg",
+    "static/media/menuImage8.jpg": "/restaurant-design/static/media/menuImage8.eb7db189.jpg",
+    "static/media/menuImage9.jpg": "/restaurant-design/static/media/menuImage9.9b860d97.jpg"
+  }
+}
