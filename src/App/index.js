@@ -7,6 +7,7 @@ import { Header } from './Header';
 import { Menu } from './Menu';
 import { MainChef } from './MainChef';
 import { Contacts } from './Contacts';
+import { Footer } from './Footer';
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -30,5 +31,6 @@ export const App = () => (
     <Route path="/restaurant-design/contacts" component={Contacts} />
     <Route path="/restaurant-design/menu" exact component={Menu} />
     <Route path="/restaurant-design/main-chef" exact component={MainChef} />
+    <Footer />
   </BrowserRouter>
 );

@@ -1,7 +1,7 @@
 {
   "name": "restaurant-design-project",
   "version": "0.1.0",
-  "homepage": "/restaurants-design/",
+  "homepage": "https://jancaweb.github.io/restaurant-design/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
