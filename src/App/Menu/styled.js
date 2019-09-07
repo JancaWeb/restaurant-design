@@ -13,30 +13,39 @@ export const MenuWrapper = styled.div`
 
 export const FirstRowWrapper = styled.div`
   margin-top: 1rem;
-  display: flex;
-  justify-content: space-between;
+  @media(min-width: 640px) {
+    display: flex;
+    justify-content: space-between;
+  }
 `;
 
 export const AnotherMealWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  @media(min-width: 640px) {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 `;
 
 export const StyledImage = styled.img`
   width: 100%;
-  max-height: 12rem;
+  @media(min-width: 640px) {
+    max-height: 12rem;
+  }
   @media(min-width: 1280px) {
     height: 12rem;
   }
 `;
 
 export const StyledImageFirstRowWrapper = styled.div`
-  height: 20rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   text-align: center;
+  display: block;
+  @media(min-width: 640px) {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 `;
 
 export const MealName = styled.p`

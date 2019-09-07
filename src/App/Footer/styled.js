@@ -11,5 +11,8 @@ export const FooterWrapper = styled.div`
 `;
 
 export const FooterText = styled.p`
-  font-size: 1.5rem;
+  font-size: 1rem;
+  @media(min-width: 640px) {
+    font-size: 1.5rem;
+  }
 `;

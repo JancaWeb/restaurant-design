@@ -13,7 +13,7 @@ export const HomePage = () => (
   <MainWrapper>
     <HomePageMealWrapper>
       <HomePageTitleItem>Еда</HomePageTitleItem>
-      <HomePageTitleItem>Вышево</HomePageTitleItem>
+      <HomePageTitleItem>Вышего</HomePageTitleItem>
       <HomePageTitleItem>Сорта</HomePageTitleItem>
     </HomePageMealWrapper>
     <ChefImage src={chefImage} alt="chefImage" />

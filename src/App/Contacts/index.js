@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Input } from 'reactstrap';
+import { Input, Button } from 'reactstrap';
 
 import { 
   ContactsTitle, 
@@ -24,9 +24,10 @@ export const Contacts = () => (
     </ContactsTitleWrapper>
     <ContactsFormWrapper>
       <InputWrapper>
-        <StyledInput type="text" />
-        <StyledInput type="text" />
-        <Input type="textarea" rows={5}/>
+        <StyledInput type="text" placeholder="Ваше Имя"/>
+        <StyledInput type="text" placeholder="Ваш Емайл"/>
+        <Input type="textarea" rows={5} placeholder="Собшение"/>
+        <Button color="primary">Отослать</Button>
       </InputWrapper>
       <div>
         <AddressDescription>Кухня</AddressDescription>
