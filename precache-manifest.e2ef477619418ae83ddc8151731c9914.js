@@ -1,27 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "072bee6168560c59d6ca2d80d9e9e227",
+    "revision": "f313a0fa76488086174cef00ed1d429b",
     "url": "/restaurant-design/index.html"
   },
   {
-    "revision": "7efb2610b9d06b704ae2",
+    "revision": "0be1c8f1665442c224f2",
     "url": "/restaurant-design/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "06a7e4dcc006e6b44d17",
+    "revision": "5d7483a17cb04955bbe1",
     "url": "/restaurant-design/static/css/main.34de6062.chunk.css"
   },
   {
-    "revision": "7efb2610b9d06b704ae2",
-    "url": "/restaurant-design/static/js/2.b6f53d7f.chunk.js"
+    "revision": "0be1c8f1665442c224f2",
+    "url": "/restaurant-design/static/js/2.29f12498.chunk.js"
   },
   {
-    "revision": "06a7e4dcc006e6b44d17",
-    "url": "/restaurant-design/static/js/main.56a5d7ce.chunk.js"
+    "revision": "63f53028699e74880cc2",
+    "url": "/restaurant-design/static/js/3.66b77f5d.chunk.js"
   },
   {
-    "revision": "1f997da3a5eb70b7de2a",
-    "url": "/restaurant-design/static/js/runtime~main.c55b6add.js"
+    "revision": "ccdc74b68d9be467d71b",
+    "url": "/restaurant-design/static/js/4.1214cf2c.chunk.js"
+  },
+  {
+    "revision": "e8235f48912453a59ce4",
+    "url": "/restaurant-design/static/js/5.7c512c3e.chunk.js"
+  },
+  {
+    "revision": "1bfd18a684d3c051855b",
+    "url": "/restaurant-design/static/js/6.58d668a5.chunk.js"
+  },
+  {
+    "revision": "230d928b1fbc110d6c9b",
+    "url": "/restaurant-design/static/js/7.9daa4179.chunk.js"
+  },
+  {
+    "revision": "5d7483a17cb04955bbe1",
+    "url": "/restaurant-design/static/js/main.a6e45c5f.chunk.js"
+  },
+  {
+    "revision": "33bc339365ec5d4d97c5",
+    "url": "/restaurant-design/static/js/runtime~main.45629743.js"
   },
   {
     "revision": "6cc8d199c804b23df6641f9db42da76b",
