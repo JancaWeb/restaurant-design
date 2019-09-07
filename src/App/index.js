@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { createGlobalStyle } from "styled-components";
 
-import { HomePage } from './HomePage';
+import { HomePage } from './HomePage/load';
 import { Header } from './Header';
-import { Menu } from './Menu';
-import { MainChef } from './MainChef';
-import { Contacts } from './Contacts';
+import { Menu } from './Menu/load';
+import { MainChef } from './MainChef/load';
+import { Contacts } from './Contacts/load';
 import { Footer } from './Footer';
 
 const GlobalStyles = createGlobalStyle`
@@ -28,7 +28,7 @@ export const App = () => (
     <GlobalStyles />
     <Header />
     <Route path="/restaurant-design/" exact component={HomePage} />
-    <Route path="/restaurant-design/contacts" component={Contacts} />
+    <Route path="/restaurant-design/contacts" component={Contacts}/>
     <Route path="/restaurant-design/menu" exact component={Menu} />
     <Route path="/restaurant-design/main-chef" exact component={MainChef} />
     <Footer />

@@ -29,7 +29,7 @@ import { Slider } from './Slider';
 const firtsRowImages = [menuImage1, menuImage2, menuImage3, menuImage4];
 const anotherMealImages = [menuImage5, menuImage6, menuImage7, menuImage8, menuImage9, menuImage10];
 
-export const Menu = () => {
+export default () => {
   const [ carouselIndex, setCarouselIndex ] = React.useState(-1);
 
   const handleOpenCarousel = (index) => () => setCarouselIndex(index);

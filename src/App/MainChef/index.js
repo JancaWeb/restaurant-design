@@ -13,7 +13,7 @@ import {
   MainChefDescription
 } from "./styled";
 
-export const MainChef = () => (
+export default () => (
   <MainWrapper>
     <MainChefWrapper>
       <MainChefTitle>Наш Повар</MainChefTitle>

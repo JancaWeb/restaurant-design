@@ -9,7 +9,7 @@ import {
   HomePageTitleItem
 } from './styled';
 
-export const HomePage = () => (
+export default () => (
   <MainWrapper>
     <HomePageMealWrapper>
       <HomePageTitleItem>Еда</HomePageTitleItem>

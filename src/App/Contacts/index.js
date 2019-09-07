@@ -12,7 +12,7 @@ import {
   StyledInput
 } from './styled';
 
-export const Contacts = () => (
+export default () => (
   <MainWrapper>
     <ContactsTitleWrapper>
       <ContactsTitle>
