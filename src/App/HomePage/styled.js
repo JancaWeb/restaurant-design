@@ -6,7 +6,8 @@ export const HomePageMealWrapper = styled.div`
   background-image: url(${mainImageMeal});
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
+  background-size: cover;
+  width: 80%;
   min-height: 80vh;
   margin: 0 auto;
   display: flex;
@@ -25,7 +26,7 @@ export const ChefImage = styled.img`
 export const HomePageTitleItem = styled.h3`
   font-family: 'IBM Plex Serif', serif;
   font-size: 3rem;
-  margin: 3rem 0 0 18%;
+  margin: 3rem 0 0 1rem;
   background-color: #d4d2cf;
   width: fit-content;
   padding: 1rem 5rem;
