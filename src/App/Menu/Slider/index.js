@@ -50,7 +50,7 @@ export const Slider = ({ carouselIndex }) => {
           <ImageWrapper>
             <SliderImage src={img} alt={`sliderImage${i}`} />
             <MealDescription>
-              Описание блуда
+              Описание блюда
             </MealDescription>
           </ImageWrapper>
           {activeIndex !== images.length - 1 && 

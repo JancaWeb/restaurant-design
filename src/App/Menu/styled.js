@@ -59,9 +59,12 @@ export const OpenMealButton = styled.button`
   margin: 0 auto;
   border: none;
   background-color: inherit;
+  transition: font-size 0.3s ease-out;
   &:hover {
     border: 1px solid;
     cursor: pointer;
+    font-size: 0.9rem;
+    padding: -1px;
   }
 `;
 

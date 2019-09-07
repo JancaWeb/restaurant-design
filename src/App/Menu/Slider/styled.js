@@ -4,8 +4,11 @@ export const SliderImageWrapper = styled.div`
   display: ${props => props.isActive ? 'flex' : 'none'};
   justify-content: space-between;
   align-items: center;
-  margin: 2rem;
+  margin: 0.5rem;
   width: 100%;
+  @media(min-width: 640px) {
+    margin: 2rem;
+  }
 `;
 
 export const SliderImage = styled.img`
@@ -58,6 +61,9 @@ export const ImageWrapper = styled.div`
 
 export const MealDescription = styled.p`
   margin-top: 2rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-align: center;
+  @media(min-width: 640px) {
+    font-size: 2.5rem;
+  }
 `;
